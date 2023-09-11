@@ -38,7 +38,7 @@ const ConsumerPage: React.FC = () => {
     return (
         <div style={containerStyle}>
             <form id="productForm" style={formStyle}>
-                <h1>Consumer Page</h1>
+                <h1><b>Consumer Page</b></h1>
                 <label htmlFor="productID">Product ID:</label>
                 <input type="text" id="productID" name="productID" required /><br /><br />
 
@@ -46,7 +46,6 @@ const ConsumerPage: React.FC = () => {
                 <p id="successMessage" style={successMessageStyle}>
                     Submitted Successfully!
                 </p>
-
 
                 <input type="button" value="Submit" onClick={showSuccessMessage} />
             </form>
