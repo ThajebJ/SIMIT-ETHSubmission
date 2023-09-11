@@ -73,8 +73,9 @@ const CallContractWithToken: NextPage = () => {
             />
             <div className="card-body">
               <h2 className="card-title">Ethereum (Token Sender)</h2>
-
+              <p> WE edit</p>
               <p>
+                
                 Sender ({truncatedAddress(wallet.address)}) balance:{" "}
                 {senderBalance}
               </p>
